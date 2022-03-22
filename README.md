@@ -6,13 +6,13 @@
 | :---        | :---                                               | :---: |
 | **CPU**         | Intel Core i5-10210U, QuadCore 3.5 GHz, Comet Lake | ✅ |
 | **Memory**      | SK hynix HMA81GS6CJR8N-XN	8 GB DDR4-3200           | ✅ |
-| **iGPU**        | Intel® UHD Graphics 630 (1.5 GB) `The iGPU in the Intel CPU site is mentioned as Intel® UHD Graphics for 10th Gen but it is actually Intel® UHD Graphics 630`| ✅ |
+| **iGPU**        | Intel® UHD Graphics 630 (1.5 GB) `The Intel site is mentioned the iGPU as "Intel® UHD Graphics for 10th Gen" but it's actually an "Intel® UHD Graphics 630"`| ✅ |
 | **Disk**        | INTEL SSDPEKNW512G8H  (512 GB, PCI-E 3.0 x4)       | ✅ |
 | **Keyboard**    | Standard PS/2 Keyboard                             | ✅ |
 | **Mouse**       | Synaptics PrecisionTouchpad Filter Driver          | ✅ |
 | **Webcam**      | HP Wide Vision HD Camera                           | ✅ |
 | **Battery**     | 333-1C-3B-A HT03041XL                              | ✅ |
-| **Audio**       | Realtek ALC295                                     | ❌ |
+| **Audio**       | Realtek ALC295 `Don't update the AppleALC.kext!`   | ✅ |
 | **WiFi**        | Realtek RTL8821CE 802.11ac PCIe Adapter            | ❌ |
 | **Bluetooth**   | Realtek Bluetooth 4.2 Adapter                      | ❌ |
 | **dGPU**        | NVIDIA GeForce MX130 (GM108)                       | ❌ |
@@ -20,9 +20,6 @@
 | **Touchscreen** | HID                                                | ❌ |
 
 A laptop without working WiFi and no built in Ethernet port is a pain in the ass, the solution is using **HoRNDIS 9.2** or **TP-Link TL-WN725N v3 USB WiFi** , but if you are ready to void your product gurantee (or is it already?) just change the internal WiFi to supported one. Head to [Dortania Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets).
-
-Yep, i havent managed to fix the audio because i dont know why **AppleALC.kext** just wont load.
-My temporary solution is by using [VoodooHDA.kext](https://sourceforge.net/projects/voodoohda/).
 
 
 ## BIOS Settings
