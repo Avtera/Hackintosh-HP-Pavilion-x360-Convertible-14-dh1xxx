@@ -19,7 +19,7 @@
 | **Fingerprint** | Synaptics WBDI Fingerprint Reader                  | ❌ |
 | **Touchscreen** | HID                                                | ❌ |
 
-A laptop without working WiFi and no built in Ethernet port is a pain in the ass, the solution is using **HoRNDIS 9.2** or **TP-Link TL-WN725N v3 USB WiFi** , but if you are ready to void your product gurantee (or is it already?) just change the internal WiFi to supported one. Head to [Dortania Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets).
+A laptop without working WiFi and no built in Ethernet port is a pain in the ass, the solution is using **HoRNDIS 9.2** (Included in the EFI.7z) or **TP-Link TL-WN725N v3 USB WiFi** , but if you are ready to void your product gurantee (or is it already?) just change the internal WiFi to supported one. Head to [Dortania Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets).
 
 
 ## BIOS Settings
@@ -39,6 +39,7 @@ Dont forget to add a compatible SMBIOS inside the config.plist before booting, [
 - [Acidanthera](https://github.com/acidanthera) and other contributors for [OpenCore](https://github.com/acidanthera/OpenCorePkg) *lol obviously 😂*
 - [Dr.NooB](https://github.com/itsdrnoob) for [Mi NoteBook 14 Hackintosh EFI Files](https://github.com/itsdrnoob/Mi-NoteBook-14-Hackintosh)
 - [h9419](https://github.com/h9419) for [HP Pavilion 14 bf100 Hackintosh EFI Files](https://github.com/h9419/HP_Pavilion_14_bf100_Hackintosh)
+- [Joshua Wise](https://github.com/jwise) for [HoRNDIS 9.2 kext](https://github.com/jwise/HoRNDIS)
 - Last, thanks to anything or anyone that help me build this EFI file, too many to write them down here lol xD
 
 # Enjoy Hackintoshing!
