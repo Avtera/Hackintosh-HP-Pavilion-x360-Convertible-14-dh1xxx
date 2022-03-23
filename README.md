@@ -42,3 +42,4 @@ Dont forget to add a compatible SMBIOS inside the config.plist before booting, [
 - Last, thanks to anything or anyone that help me build this EFI file, too many to write them down here lol xD
 
 # Enjoy Hackintoshing!
+7z password is avtera
