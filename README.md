@@ -13,11 +13,11 @@
 | **Webcam**      | HP Wide Vision HD Camera                           | ✅ |
 | **Battery**     | 333-1C-3B-A HT03041XL                              | ✅ |
 | **Audio**       | Realtek ALC295 `Don't update the AppleALC.kext!`   | ✅ |
+| **Fingerprint** | Synaptics WBDI Fingerprint Reader                  | ✅ |
+| **Touchscreen** | HID                                                | ✅ |
 | **WiFi**        | Realtek RTL8821CE 802.11ac PCIe Adapter            | ❌ |
 | **Bluetooth**   | Realtek Bluetooth 4.2 Adapter                      | ❌ |
 | **dGPU**        | NVIDIA GeForce MX130 (GM108)                       | ❌ |
-| **Fingerprint** | Synaptics WBDI Fingerprint Reader                  | ❌ |
-| **Touchscreen** | HID                                                | ❌ |
 
 A laptop without working WiFi and no built in Ethernet port is a pain in the ass, the solution is using **HoRNDIS 9.2** (Included in the EFI.7z) or **TP-Link TL-WN725N v3 USB WiFi** , but if you are ready to void your product gurantee (or is it already?) just change the internal WiFi to supported one. Head to [Dortania Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets).
 
@@ -40,6 +40,7 @@ Dont forget to add a compatible SMBIOS inside the config.plist before booting, [
 - [Dr.NooB](https://github.com/itsdrnoob) for [Mi NoteBook 14 Hackintosh EFI Files](https://github.com/itsdrnoob/Mi-NoteBook-14-Hackintosh)
 - [h9419](https://github.com/h9419) for [HP Pavilion 14 bf100 Hackintosh EFI Files](https://github.com/h9419/HP_Pavilion_14_bf100_Hackintosh)
 - [Joshua Wise](https://github.com/jwise) for [HoRNDIS 9.2 kext](https://github.com/jwise/HoRNDIS)
+- r/Hackintosh Paradise Discord Members for troubleshooting assistance
 - Last, thanks to anything or anyone that help me build this EFI file, too many to write them down here lol xD
 
 # Enjoy Hackintoshing!
