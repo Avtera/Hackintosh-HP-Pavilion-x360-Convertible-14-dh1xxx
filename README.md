@@ -6,7 +6,7 @@
 | :---        | :---                                               | :---: |
 | **CPU**         | Intel Core i5-10210U, QuadCore 3.5 GHz, Comet Lake | ✅ |
 | **Memory**      | SK hynix HMA81GS6CJR8N-XN	8 GB DDR4-3200           | ✅ |
-| **iGPU**        | Intel® UHD Graphics 630 (1.5 GB) `The Intel site is mentioned the iGPU as "Intel® UHD Graphics for 10th Gen" but it's actually an "Intel® UHD Graphics 630"`| ✅ |
+| **iGPU**        | Intel® UHD Graphics 630 (1.5 GB) `Intel told us the iGPU is "Intel® UHD Graphics for 10th Gen" but it's actually an "Intel® UHD Graphics 630"`| ✅ |
 | **Disk**        | INTEL SSDPEKNW512G8H  (512 GB, PCI-E 3.0 x4)       | ✅ |
 | **Keyboard**    | Standard PS/2 Keyboard                             | ✅ |
 | **Touchpad**    | Synaptics `(Hardware Id: SYNA328B)`                | ✅ |
