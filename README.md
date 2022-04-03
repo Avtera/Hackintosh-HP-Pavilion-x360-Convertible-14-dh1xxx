@@ -9,13 +9,13 @@
 | **iGPU**        | Intel® UHD Graphics 630 (1.5 GB) `The Intel site is mentioned the iGPU as "Intel® UHD Graphics for 10th Gen" but it's actually an "Intel® UHD Graphics 630"`| ✅ |
 | **Disk**        | INTEL SSDPEKNW512G8H  (512 GB, PCI-E 3.0 x4)       | ✅ |
 | **Keyboard**    | Standard PS/2 Keyboard                             | ✅ |
-| **Mouse**       | Synaptics PrecisionTouchpad Filter Driver          | ✅ |
+| **Touchpad**    | Synaptics PrecisionTouchpad Filter Driver          | ✅ |
+| **Touchscreen** | HID                                                | ✅ |
 | **Webcam**      | HP Wide Vision HD Camera                           | ✅ |
 | **Battery**     | 333-1C-3B-A HT03041XL                              | ✅ |
 | **Audio**       | Realtek ALC295 `Don't update the AppleALC.kext!`   | ✅ |
-| **Fingerprint** | Synaptics WBDI Fingerprint Reader                  | ✅ |
-| **Touchscreen** | HID                                                | ✅ |
 | **WiFi**        | Realtek RTL8821CE 802.11ac PCIe Adapter            | ❌ |
+| **Fingerprint** | Synaptics WBDI Fingerprint Reader                  | ❌ |
 | **Bluetooth**   | Realtek Bluetooth 4.2 Adapter                      | ❌ |
 | **dGPU**        | NVIDIA GeForce MX130 (GM108)                       | ❌ |
 
