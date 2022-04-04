@@ -1,5 +1,5 @@
 # [SUCCESS] HP Pavilion x360 Convertible 14-dh1xxx
-100% Tested.
+Tested before release.
 
 ## Specifications
 | Type        | Hardware Model                                     | Status |
@@ -19,9 +19,6 @@
 | **Bluetooth**   | Realtek Bluetooth 4.2 Adapter                      | ❌ |
 | **dGPU**        | NVIDIA GeForce MX130 (GM108)                       | ❌ |
 
-A laptop without working WiFi and no built in Ethernet port is a pain in the ass, the solution is using **HoRNDIS 9.2** (Included in the EFI.7z) or **TP-Link TL-WN725N v3 USB WiFi** , but if you are ready to void your product gurantee (or is it already?) just change the internal WiFi to supported one. Head to [Dortania Wireless Buyers Guide](https://dortania.github.io/Wireless-Buyers-Guide/unsupported.html#supported-chipsets).
-
-
 ## BIOS Settings
 | Option              | Status                     |
 | :---                | :---                       |
@@ -33,6 +30,12 @@ A laptop without working WiFi and no built in Ethernet port is a pain in the ass
 ## Tutorial? at this point do u still need a tutorial? jk!
 Just download this repo and copy paste the EFI folder to your EFI partition. 
 Dont forget to add a compatible SMBIOS inside the config.plist before booting, [you can follow this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo).
+
+## Some hacky tricks (not really lol)
+### 1. Issues with VoodooRMI.kext
+Sometimes the touchpad (TPD0) is detected in IOReg but its not working, how to fix that? idk lol 🤡. To circumvent this error, you can try to reboot 1x in the macOS (boot to macOS restart to macOS), if the touchpad still disabled try reboot 1x in windows (boot to windows restart to windows). **Make sure the touchpad is working in windows** then proceed to reboot to the macOS. Good luck!
+### 2. Internet
+A laptop without working WiFi and no Ethernet port included is REAL PAINFUL 💩, the solution is Android USB Tethering (HoRNDIS 9.2 kext), Native iPhone USB Tethering, or use an USB Wi-Fi (chris1111 driver).
 
 ## All the thanks goes to
 - [Dortania](https://github.com/dortania) for [OpencCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
