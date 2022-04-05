@@ -36,9 +36,11 @@ Dont forget to add a compatible SMBIOS inside the config.plist before booting, [
 
 ## Some hacky tricks (not really lol)
 ### 1. Issues with Touchpad and Touchscreen
-Sometimes the touchpad (TPD0) is detected on IOReg but its not working, how to fix that? idk lol 🤡. To circumvent this error, reboot to windows with windows bootloader, restart 1x to windows again (make sure touchpad is working), then reboot to OC and select the macOS, if the touchpad still disabled try restart 1x to the macOS again. Good luck!
+Sometimes the touchpad (TPD0) is detected on IOReg but its not working, how to fix that? idk lol 🤡. To circumvent this error, restart macOS to windows (with windows bootloader), restart 1x in windows to windows (make sure the touchpad is working), then reboot to OpenCore and select the macOS, if the touchpad still disabled try restart 1x in macOS to macOS. Good luck!
 ### 2. Internet
 A laptop without working WiFi and no Ethernet port included is REAL PAINFUL 💩, the solution is Android USB Tethering (HoRNDIS 9.2 kext), Native iPhone USB Tethering, or use an USB Wi-Fi (chris1111 driver).
+### 3. Audio
+Speakers does not output any sound? just shut down the macOS and power it on again! (must be shutdown, restart wont fix this issue.)
 
 ## All the thanks goes to
 - [Dortania](https://github.com/dortania) for [OpencCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
