@@ -32,8 +32,8 @@ Just download this repo and copy paste the EFI folder to your EFI partition.
 Dont forget to add a compatible SMBIOS inside the config.plist before booting, [you can follow this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo).
 
 ## Some hacky tricks (not really lol)
-### 1. Issues with VoodooRMI.kext
-Sometimes the touchpad (TPD0) is detected in IOReg but its not working, how to fix that? idk lol 🤡. To circumvent this error, you can try to reboot 1x in the macOS (boot to macOS restart to macOS), if the touchpad still disabled try reboot 1x in windows (boot to windows restart to windows). **Make sure the touchpad is working in windows** then proceed to reboot to the macOS. Good luck!
+### 1. Issues with Touchpad and Touchscreen
+Sometimes the touchpad (TPD0) is detected on IOReg but its not working, how to fix that? idk lol 🤡. To circumvent this error, reboot to windows with windows bootloader, restart 1x to windows again (make sure touchpad is working), then reboot to OC and select the macOS, if the touchpad still disabled try restart 1x to the macOS again. Good luck!
 ### 2. Internet
 A laptop without working WiFi and no Ethernet port included is REAL PAINFUL 💩, the solution is Android USB Tethering (HoRNDIS 9.2 kext), Native iPhone USB Tethering, or use an USB Wi-Fi (chris1111 driver).
 
