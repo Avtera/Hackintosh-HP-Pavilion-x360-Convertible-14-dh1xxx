@@ -37,7 +37,7 @@ Dont forget to add a compatible SMBIOS inside the config.plist before booting, [
 ## Some hacky tricks (not really lol)
 ### 1. Issues with Touchpad and Touchscreen
 - Solution 1: Sometimes the touchpad (TPD0) is detected on IOReg but its not working, how to fix that? idk lol 🤡. To circumvent this error, restart macOS to windows (with windows bootloader), restart 1x in windows to windows (make sure the touchpad is working), then reboot to OpenCore and select the macOS, if the touchpad still disabled try restart 1x in macOS to macOS. Good luck!
-- Solution 2: Add VoodooI2CELAN.kext and remove the VoodooRMI.kext then Snapshot the config.plist. This method will disable the touchscreen and let the touchpad will work flawlessly without any disruption.
+- Solution 2: Add VoodooI2CELAN.kext and remove the VoodooRMI.kext then Snapshot the config.plist. This method will disable the touchscreen and let the touchpad work flawlessly without any disruption.
 ### 2. Internet
 A laptop without working WiFi and no Ethernet port included is REAL PAINFUL 💩, the solution is Android USB Tethering (HoRNDIS 9.2 kext), Native iPhone USB Tethering, or use an USB Wi-Fi (chris1111 driver).
 ### 3. Audio
