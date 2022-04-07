@@ -43,6 +43,9 @@ A laptop without working WiFi and no Ethernet port included is REAL PAINFUL 💩
 ### 3. Audio
 Speakers does not output any sound? just shut down the macOS and power it on again! (must be shutdown, restart wont fix this issue.)
 
+## Bug
+- Touchpad broke after wake from sleep (pls help)
+
 ## All the thanks goes to
 - [Dortania](https://github.com/dortania) for [OpencCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 - [Acidanthera](https://github.com/acidanthera) and other contributors for [OpenCore](https://github.com/acidanthera/OpenCorePkg) *lol obviously 😂*
