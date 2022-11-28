@@ -19,9 +19,6 @@ Tested before release.
 | **Bluetooth**   | Realtek Bluetooth 4.2 Adapter                      | ❌ |
 | **dGPU**        | NVIDIA GeForce MX130 (GM108)                       | ❌ |
 
-## OpenCore
-OpenCore bootloader v0.7.9
-
 ## BIOS Settings
 | Option              | Status                     |
 | :---                | :---                       |
